@@ -198,18 +198,14 @@ article.responsive div.skiluri {
 }
 
 footer.footsy {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   background-color: #1f1d1d;
-  padding-left: 12%;
-/*    padding-right: 15%;*/
+ 
+
  
 }
-/*
-#Smedia {
-    padding-left: 250;
-   
-}
-*/
-
 
 footer.footsy h1 {
   color: #fff;
