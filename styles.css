@@ -1,0 +1,287 @@
+/*************DEFAULTS*************/
+header,
+nav{
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+    background-color: #1f1d1d;
+    background-image: url(carbon-fibre.png);
+}
+
+div.pagina {
+    margin: 5% 10%;
+    background-color: #373737;
+    background-image: url(diagonales-decalees.png);
+    border-radius: 17px;
+}
+
+label {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.2;
+}
+/*
+article p {
+    font-size: 35px;
+    padding: 20px;
+}
+*/
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+div.workExp div.rightDate h2{
+    float: right;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+ div.wid {
+   -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -moz-column-gap: 2em;
+  -webkit-column-gap: 2em;
+  column-gap: 2em;
+}
+* {
+    box-sizing: border-box;
+}
+
+/**********************************/
+
+/*
+#section1 {
+    background-color: #1f1d1d;
+}
+*/
+h1.header {
+    font-size: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ed1c24;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px  black;
+}
+
+div.about {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+div.about h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight:800;
+    margin: 0;
+    color: #ed1c24;
+    text-shadow: 2px 2px 20px  black;
+/*
+    background: -webkit-linear-gradient(#9e2b20, #fa0101);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+*/
+}
+div.about p {
+    text-align: justify;
+    font-weight:lighter;
+}
+
+div.box {
+    display: block;
+    min-height: 16px;
+    text-align: center;
+    margin: 0px;
+    border-radius: 0;
+    background-color: #ebe8e8;
+    padding: 15px;
+/*    box-shadow: 0 0 0 1px rgba (0,0,0,.15)*/
+}
+div.box a{
+    font-size: 20px;
+}
+div.bx1 {
+    margin-left: 20px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    border-right-style: solid;
+    border-color: #6b6868;
+    border-width: 1px;
+}
+div.bx2 {
+    margin-right: 20px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left-style: solid;
+    border-color: #6b6868;
+    border-width: 1px;
+}
+div.box a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+div.box:hover{
+    background-color: #9e2b20;
+    
+    
+}
+
+div.skiluri {
+    padding-left: 0%;
+}
+div.skiluri h3{
+    color:#fff;
+    font-size: 30px;
+}
+div.skiluri ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0%;
+    
+    
+}
+div.skiluri ul li {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+    
+}
+div.workExp h2{
+    padding: 10px;
+}
+
+div.labelS h3 {
+    text-align: center;
+}
+
+article.aberati div.workExp {
+    display: none;
+}
+article.responsive div.skiluri {
+    display: none;
+}
+
+footer.footsy {
+  background-color: #1f1d1d;
+  padding-left: 12%;
+/*    padding-right: 15%;*/
+ 
+}
+/*
+#Smedia {
+    padding-left: 250;
+   
+}
+*/
+
+
+footer.footsy h1 {
+  color: #fff;
+  font-size: 25px;
+}
+
+footer.footsy ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+}
+
+footer.footsy ul li {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+}
+footer.footsy ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+}
+footer.footsy ul li img {   display: block;
+    float: left;
+    padding-right:5px;
+    margin: 0px;
+}
+
+/**********MOBILE***************/
+@media screen and (max-width: 680px) {
+    h1.header {
+        font-size: 50px;
+    }
+    div.about h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .col-6 {width: 100%;
+    margin: 0;}
+    .col-3 {width: 50%;
+    margin: 0;}
+    .mob {width: 50%;}
+    div.box {
+        width: 100%;
+        margin: 0;
+        border-style: groove;
+        border-radius: 0;
+    }
+    div.workExp div.rightDate h2{
+    float: left;
+}
+    
+    footer.footsy div.mobileStack {
+        width: 50%;
+    }
+    .labelS h3{
+        text-decoration: underline;
+        letter-spacing: 2px;     
+    }
+    div.skiluri h3 {
+        color: #ed1c24;
+        text-shadow: 2px 2px 20px  black;
+    }
+    div.wid {
+        -moz-column-count: 1;
+  -webkit-column-count: 1;
+  column-count: 1;
+    }
+    
+    
+    
+}
