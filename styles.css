@@ -233,7 +233,7 @@ footer.footsy ul li img {   display: block;
 
 /**********MOBILE***************/
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     h1.header {
         font-size: 3.125em;
     }
