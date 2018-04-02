@@ -1,146 +1,694 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
-    <meta chatset="utf-8">
-    <title>Bogdan Nica CV</title>
-    <link rel='stylesheet' href="style.css">
-   <script type="text/javascript" src ="java.js"></script>
+
+    <!-- Meta
+    ================================================== -->
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="Bogdan Nica CV">
+	<meta name="author" content="Bogdan Nica">
+    
+    <title>Bogdan Nica</title>
+    
+    
+    <!-- Mobile Specific Metas
+    ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/skeleton.css"/>
+    <link rel="stylesheet" href="css/screen.css"/>
+    
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    
+    
+    <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/icons/favicon.ico">
+	<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
+      
 </head>
+
+
+
 <body>
-    <div class="container">
-    <div class="wid">
-        <div class="menu">
-            <div class ="imagine"><img src="pic%20cv.jpg"></div>
-            <div class="left-text">
-                <hr>
-                <h1>Bogdan Nica</h1>
-                <h1>nicabogdan93@gmail.com</h1>
-                <h1>+447532786916</h1>
-                <h1>Bucharest, Ro</h1>
-                <hr>
+
+<!--    <div class="preloader main"><img class="hidden" src="images/icons/preloader_dark.gif" alt=""></div>-->
+
+
+    <!--
+    ///////////////
+    Start main content
+    ///////////////
+    -->
+    
+    <section class="wrapper" data-backgroundimage="images/background/1.jpg">
+    
+    
+        <!-- Start navigation -->
+        <nav class="main">
+            <div class="famenu"><span>MENU</span></div>
+            <ul>
+              <li class="selected fahome"><a href="#home"><span>HOME</span></a></li>
+              <li class="faprofile"><a href="#profile"><span>PROFILE</span></a></li>
+              <li class="faresume" ><a href="#resume"><span>RESUME</span></a></li>
+              <li class="faportfolio"><a href="#portfolio"><span>PORTFOLIO</span></a></li>
+              <li class="facontact"><a href="#contact"><span>CONTACT</span></a></li>
+            </ul>
+        
+        </nav>
+        
+
+        <!-- End navigation -->
+
+        <!--
+        ///////////////
+        Start Home page
+        ///////////////
+        -->
+        <div class="container" id="home">
+        
+            
+            
+            <div class="clearfix row-fourty"></div>
+            
+            <!-- Top image -->
+            <figure class="one row"><img class="scaletofit" src="images/home/1.jpg" alt=""></figure>
+            
+            
+            <!-- Name/Job title -->
+            <header class="onehalf row">
+               <h1>BOGDAN NICA</h1>
+               <h3>Web Developer</h3>
+            </header>
+            
+            
+            <!-- Social icons -->
+            <div class="onehalf row top-fifteen">
+                 
+               <ul class="socialIcons large float-right">
+                 <li class="linkedin"><a class="tooltip" data-tooltipText="LinkedIn" data-tooltipDirection="s" target="_blank" href="https://www.linkedin.com/in/bogdan-nica-5724b79b/"></a></li>
+                 <li class="facebook"><a class="tooltip" data-tooltipText="Facebook" data-tooltipDirection="s" target="_blank" href="https://www.facebook.com/BogdanNica93"></a></li>
+                 <li class="instagram last"><a class="tooltip" data-tooltipText="Instagram" data-tooltipDirection="s" target="_blank" href="https://www.instagram.com/bogdannica93/"></a></li>
+               </ul>
+               
+             </div>
+             
+             
+             <div class="clearfix"></div>
+             
+             
+             <!-- Intro text -->
+             <div class="one row whiteBg pad20 boxsizing">
+                <h4>INTRODUCTION</h4>
+                 <p><span class="highlightBg">Welcome to my personal page.</span> Here you will find <strong>everything about my skills</strong> but also about my work experience. Please feel free to stay as much as you like and if you have any question, drop me a message at the end of this page.</p>
                 
-                    <h1 id="navAbout"><a href="javascript:void(0);" onclick="changeAbout()">About</a></h1>
-                <div class="nav" id="dropdownClick">
-                    <h1><a href="javascript:void(0);" onclick="changeWork()">Work Experience</a></h1>
-                    <h1><a href="javascript:void(0);" onclick="changeSkill()">Skills</a></h1>
-                    <h1><a href="javascript:void(0);" onclick="changeEducation()">Education</a></h1>
-                    <hr>
-                    <h1><a href="https://www.facebook.com/BogdanNica93"><img src="facebook.png"> Facebook</a></h1>
-                    <h1><a href="https://www.linkedin.com/in/bogdan-nica-5724b79b/"> <img src="linkdin.png"> Linkedin</a></h1>
-                    <h1><a href="https://www.instagram.com/bogdannica93/"><img src="instagram.png"> Instragram</a></h1>
-                </div>
-                <div class="dropdownMenu">
-                    <a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></div>
-                
-            </div>
-            </div>
-        <div class="details">
-            <article class="displayAbout" id="changeDisplay">
-                <div class="about">
-                    <div class="text">
-                    <h3>About Me</h3>
-            <p> I am an enthusiastic, punctual and self-motivated person. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and I am willing to learn and develop new skills. 
-                I previously worked as a manager in fast food restaurants. I recently decided to shift my career to a web developer one. Programming was a passion of mine since I was younger and now I decided to pursue it. I am a self taught in HTML, CSS, JavaScript and other programs. I am excited for a new chapter in my live. Have a nice day! 
-
-</p>
-
-                    </div>
-                </div>
-                <div class="workExp">
-                    <div class="text">
-                        <h3> Work Experience</h3>
-                        <div class="row">
-                            <div class="col-6"><h2>Pizza Hut | Shift Manager </h2></div>
-                            <div class="col-6 rightDate"><h2>Jan 2017 - Dec 2017</h2></div>
-                        </div>
-                        <p> My responsibilities  during my time here were to make sure that every customer was highly satisfied with the products they got from as and as a team we exceed last year's sales each week. Customer satisfaction was one of my main priorities during my shift, as well as making sure my staff were prepared every day for the rush hour.
-                        Other responsibilities included sending emails about incidents that happened during my shif and keeping the RGM updated with any possible problems that might appear the next day. During my time here, I developed my communication and leadership skills, and improved my approach regarding my staff members.</p>
-                    </div>
-                    <div class="text">
-                        <div class="row">
-                            <div class="col-6"><h2>McDonalds | Shift Manager  </h2></div>
-                            <div class="col-6 rightDate"><h2>May 2016 - Dec 2016</h2></div>
-                        </div>
-
-                        <p> I was responsible with coordinating people and supervise them to make sure we produce and sell high standard products every day. Other day-to-day responsibilities include positioning people so that everyone is on their best role, dealing with customers complains and solving them as fast as possible. I was in charge with all the earnings during my shift, making sure there were no money missing, and dealing with other equipment problems that might have appeared. </p>
-                    </div>
-                    <div class="text">
-                        <div class="row">
-                            <div class="col-6"><h2>Tiravis | Online Sales Manager  </h2></div>
-                            <div class="col-6 rightDate"><h2>Jul 2015 - Apr 2016</h2></div>
-                        </div>
-
-                        <p> My day-to-day responsibilities were to maintain the company’s website (updating prices, promotions, add new products) and process the online orders that were made by the customers. I designed the website and create banners that we use to advertise new products or brands that are available for sales. I am also responsible with the Social Media activity of the firm, as I spend my time making sure as many persons, primary on Facebook, hear about our page and see our latest updates. I have proven having good communication skills since I talk daily with the customers that wrote us on our Facebook page, e-mail, via the website’s contact form, or by telephone. The usually questions the customers have are about the offers, why is a delay in their products arrival time or returns.</p>
-                    </div>
-                </div>
-                <div class="skills"> 
-                    <h3>My skills | Skills from work experience</h3>
-                    <div class="rwtabel">
-                        <div class="labelS">
-                            <h4> Practical Skills</h4>
-
-
-                        <div class="pracSk">
-                            <ul>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Javascript</li>
-                                <li>Adobe Photoshop</li>
-                            </ul>
-                            <ul>
-                               
-                                <li>Microsoft Office</li>
-                                <li>Microsoft Windows</li>
-                                <li>Online sales</li>
-                                
-                             </ul>
-
-                           </div>
-
-                        </div>
-                        <div class="labelS">
-                            <h4> People Skills</h4>
-                            <div class="listPpl">
-                        <ul>
-                                <li>Leadership Experience</li>
-                                <li>Customer Service</li>
-                                <li>Problem Solver</li>
-                                <li>Organisational Skills</li>
-                                <li>People Management</li>
-                                <li>Critical Thinking</li>
-                                <li>Communication Skills</li>
-                                <li>Self Motivated</li>
-                        </ul></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="education">
-                    <h3> Education</h3>
-                    <div class="text">
-                        <div class="row">
-                            <div class="col-6">
-                                <h2>University of Essex</h2> 
-                                <h2>BSc Business Management </h2>
-                            </div>
-                            <div class="col-6 rightDate"><h2>Oct 2012 - Jun 2015</h2></div>
-                        </div>
-                        <p>During my time at the university I studied various modules which were very in my career after, some of them are:  applying E-commerce in Business, Digital and social media, Business ethics, Management innovation and new technology, and Leadership.</p>
-                    </div>
-                    <div class="text">
-                        <div class="row">
-                            <div class="col-6">
-                                <h2>National College "Cantemir Voda"</h2> 
-                                <h2>Mathematics and IT </h2>
-                            </div>
-                            <div class="col-6 rightDate"><h2>Sep 2008 - Jul 2012</h2></div>
-                        </div>
-                        <p> During my time here was when I first descovered programming and learned C++. <br>
-                            Baccalaureate score 8.80/10</p>
-                    </div>
-                </div>
-            </article>
-            </div>
+             </div>
+             
+             <div class="clearfix row-sixty"></div>
+             
+        
         </div>
-    </div>
+        <!--
+        ///////////////
+        End Home page
+        ///////////////
+        -->
+        
+        
+        
+        <!--
+        ///////////////
+        Start Profile page
+        ///////////////
+        -->
+        <div class="container" id="profile">
+
+            <!-- Header -->
+            <header class="one row">
+               <h2><span class="faIcon profile"></span>PROFILE</h2>
+            </header>
+
+             
+             
+             <!-- Intro text -->
+             <div class="twothird row whiteBg pad20 boxsizing">
+             
+                <h4><span class="faIcon small dark male"></span>ABOUT ME</h4>
+                <p>I am an enthusiastic, punctual and <span class="highlightBg">self-motivated person.</span> I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and I am willing to learn and develop new skills. I previously worked as a manager in fast food restaurants. I recently decided to shift my career to a <strong>web developer one</strong> . Programming was a passion of mine since I was younger and know I decided to pursue it. I am a <span class="highlightBg">self taught in HTML, CSS, JavaScript </span>and other programs. I am excited for a new chapter in my live. Have a nice day!</p>
+                <!-- End intro text -->
+                    
+                <div class="clearfix row"></div>
+                    
+                <!--tabs-->
+                <div class="row tabs" data-autoPlay="false" data-autoDelay="3000">
+                
+                    <h4><span class="faIcon small dark sitemap"></span>SERVICES</h4>
+                    <ul>
+                        <li><a href="#tabs-1">Web Design</a></li>
+                        <li><a href="#tabs-2">Front-end</a></li>
+                        <li><a href="#tabs-3">Print and Graphic Design</a></li>
+                    </ul>
+                    
+                    <div id="tabs-1">
+                    
+                        <p>Website design services are <span class="highlightBg">critical</span> in today's competitive online environment. The visual first impression your website makes will have a huge influence over a prospective client's impulse to click away or to read further. I focus on not only providing <strong> pleasing, aesthetic website design </strong>, but on layouts that give your clients the information they're looking for - the oh-so-important first impression of your organization or business, the services you provide, or about the book you just published</p>
+                
+                        
+                    </div>
+                    
+                    <div id="tabs-2">
+                        <p> If you are a developing company that needs a new teammate for your web dev team, I am your guy. I can create websites based on required design and I can update it accordingly to your new desires. I am exited about new projects and ready to learn new tricks.</p>
+                    </div>
+                    
+                    <div id="tabs-3">
+                        <p> Whether you need simple <span class="highlightBg">business cards, envelopes </span> or have a bigger print project like a trade show exhibit, I can take care of those projects. Contact me today to get more detailed information about your print and graphic design needs. </p>
+                    </div>
+                
+                </div>
+                <!--end tabs-->
+                
+                
+                
+                <!--start reel-->
+<!--
+                <div class="scaleframe row">
+                    <h4><span class="faIcon small dark video"></span>REEL</h4>
+                    <iframe width="695" height="392" src="http://player.vimeo.com/video/31286404" frameborder="0" allowfullscreen></iframe>
+                </div>
+-->
+                <!--end reel-->
+                
+             </div>
+             
+             
+            <!--Start sidebar-->
+            <div class="onethird row"> 
+               <h4><span class="faIcon small star"></span>WHAT I'M GOOD AT</h4>
+               <!--Start accordion-->
+               <ul class="acc" id="acc">
+                    <li>
+                        <h4><span class="icon"></span>HTML5</h4>
+<!--
+                        <div class="acc-section">
+                            <div class="acc-content">
+                                Aliquam nec nisl non est dignissim <strong>ullamcorper mauris</strong>. Suspendisse nec mauris ligula, at laoreet diam. Aenean est elit, rutrum non lacinia in, ultrices at elit. Maecenas met dignissim neque imperdiet ante posuere non gravida eros dictum. Mauris lobortis egestas nisl, sit amet blandit <strong>purus tincidunt</strong> at. Integer sit amet orci eu est interdum.
+                            </div>
+                        </div>
+-->
+                    </li>
+                    <li>
+                       <h4><span class="icon"></span>CSS3</h4>
+<!--
+                       <div class="acc-section">
+                        <div class="acc-content">
+                           Maecenas at viverra ante. Pellentesque habitant morbi <strong>tristique senectus</strong> et netus et malesuada fames ac turpis egestas. Aliquam tristique sollicitudin eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices <strong>posuere cubilia</strong> Curae; Donec id urna vitae nunc rutrum convallis sit amet vel elit.
+                            </div>
+                        </div>
+-->
+                    </li>
+                    <li>
+                      <h4><span class="icon"></span>PHOTOSHOP</h4>
+<!--
+                      <div class="acc-section">
+                        <div class="acc-content">
+                           Vivamus lectus nibh, dignissim in accumsan in, tempus <strong>eget urna</strong>. Aliquam id quam in magna varius pharetra ac eget est. Nullam ornare gravida volutpat. Nunc at quam eget ligula vehicula imperdiet in id tortor. Donec vehicula <strong>aliquet tellus</strong>, id lacinia justo euismod sit amet. Fusce iaculis neque felis, vitae imperdiet orci.
+                            </div>
+                        </div>
+-->
+                    </li>
+                    
+                    <li>
+                      <h4><span class="icon"></span>JAVASCRIPT</h4>
+<!--
+                      <div class="acc-section">
+                        <div class="acc-content">
+                           Curabitur ut purus magna, <strong>vitae tincidunt</strong> neque. Vestibulum gravida erat eu quam pulvinar ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec adipiscing ligula quis ipsum iaculis tristique. Pellentesque eu lectus <strong>quis nunc blandit</strong> vulputate.
+                            </div>
+                        </div>
+-->
+                    </li> 
+                </ul>
+                <!--//End accordion-->
+                
+                
+                <!--Start twitter-->
+<!--
+                <h4><span class="faIcon small twittersign"></span>LATEST TWEETS</h4>
+                <div class="whiteBg pad20">
+                   <div class="tweets"></div>
+                </div>
+-->
+                
+                <!--End twitter-->
+                
+            </div>
+            <!--//End sidebar-->
+            
+            
+            <!--Circles-->
+            <section>
+                <div class="one row-ten"><h4><span class="faIcon small signal"></span>MY SKILLS</h4></div>
+                <div class="onefourth tight progresscircles row-thirty center">
+                  <div class="arc row-ten" data-percent="72" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd" data-strokeColor="#4286f4" data-circleColor="" data-textColor="#fefefd"></div>
+                  <h4>HTML5</h4>
+                </div>
+                
+                <div class="onefourth tight progresscircles row-thirty center">
+                  <div class="arc row-ten" data-percent="67" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd" data-strokeColor="#4286f4" data-circleColor="" data-textColor="#fefefd"></div>
+                  <h4>CSS3</h4>
+                </div>
+                
+                <div class="onefourth tight progresscircles row-thirty center">
+                  <div class="arc row-ten" data-percent="36" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd" data-strokeColor="#4286f4" data-circleColor="" data-textColor="#fefefd"></div>
+                  <h4>PHOTOSHOP</h4>
+                </div>
+                
+                
+                <div class="onefourth tight progresscircles row-thirty center">
+                  <div class="arc row-ten" data-percent="32" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd" data-strokeColor="#4286f4" data-circleColor="" data-textColor="#fefefd"></div>
+                  <h4>JAVASCRIPT</h4>
+                </div>
+                
+                
+                
+            </section>
+            <!--End Circles-->
+            
+            <div class="clearfix row-fourty"></div>
+             
+        
+        </div>
+        <!--
+        ///////////////
+        End Profile page
+        ///////////////
+        -->
+        
+        
+         <!--
+        ///////////////
+        Start Resume page
+        ///////////////
+        -->
+        <div class="container" id="resume">
+
+            <!-- Header -->
+            <header class="one row">
+               <h2><span class="faIcon resume"></span>RESUME</h2>
+            </header>
+
+             
+             
+             <!-- experience -->
+             <div class="twothird row whiteBg pad20 boxsizing">
+             
+                <h4 class="row"><span class="faIcon small dark briefcase"></span>EXPERIENCE</h4>
+                
+             	<ul class="education left20">
+                
+                	<li>
+                        <div class="date"><span class="faIcon tiny dark calendar"></span><span class="highlightBg">Jan. 2017 to Dec. 2017 </span></div>
+                        <div class="school"><strong>Pizza Hut - Shift Manager</strong></div>
+                        <p>My responsibilities during my time here were to make sure that <span class="highlightBg"> every customer was highly satisfied </span> with the products they got from as and as a team we exceed last year's sales each week. Customer satisfaction was one of my main priorities during my shift, as well as making sure my staff were <strong>prepared every day </strong> for the rush hour. Other responsibilities included sending emails about incidents that happened during my shif and keeping the RGM updated with any possible problems that might appear the next day. During my time here, I <span class="highlightBg">developed my communication and leadership skills </span>, and improved my approach regarding my staff members..</p>
+                        <p><strong>Developed Skills:</strong></p>
+                        <ul class="disc">
+                           <li>Problem Solver</li>
+                           <li>Leadership</li>
+                           <li>Critical Thinking</li>
+                        </ul>
+                        
+                    </li>
+                    
+                    <li>
+                        <div class="date"><span class="faIcon tiny dark calendar"></span><span class="highlightBg">May 2016 to Dec. 2016</span></div>
+                        <div class="school"><strong>McDonald's - Shift Manager</strong></div>
+                        <p>I was responsible with coordinating people and supervise them to make sure we produce and sell <span class="highlightBg">high standard products every day.</span> Other day-to-day responsibilities include positioning people so that <strong>everyone is on their best role</strong>, dealing with customers complains and solving them as fast as possible. I was in charge with all the earnings during my shift, making sure there were no money missing, and dealing with other equipment problems that might have appeared.</p>
+                        <p><strong>Developed Skills:</strong></p>
+                        <ul class="disc">
+                           <li>Organisational Skills</li>
+                           <li>Team Management</li>
+                           <li>Customer Service</li>
+                        </ul>
+                        
+                    </li>
+                    
+                    <li>
+                        <div class="date"><span class="faIcon tiny dark calendar"></span><span class="highlightBg">Jul. 2015 to Apr. 2016</span></div>
+                        <div class="school"><strong>SC Tiravis SRL - Sales Manager</strong></div>
+                        <p>My day-to-day responsibilities were to <span class="highlightBg"> maintain the company’s website </span> (updating prices, promotions, add new products) and process the online orders that were made by the customers. <span class="highlightBg">I designed the website and created banners</span> that we used to advertise new products or brands that are available for sales. I am also <strong>responsible with the Social Media activity of the firm</strong>, as I spend my time making sure as many persons, primary on Facebook, hear about our page and see our latest updates. I have proven having good communication skills since I talk daily with the customers that wrote us on our Facebook page, e-mail, via the website’s contact form, or by telephone. The usually questions the customers have are about the offers, why is a delay in their products arrival time or returns.</p>
+                        <ul class="disc">
+                           <li>Photoshop</li>
+                           <li>Self Motivated</li>
+                           <li>Social Media</li>
+                           <li>Web Design</li>
+                        </ul>
+                        
+                    </li>
+                    
+                </ul>
+                
+             </div>
+             
+             
+             <!-- education/interests -->
+             <div class="onethird row whiteBg pad20 boxsizing">
+             
+             
+                <h4 class="row"><span class="faIcon small dark book"></span>EDUCATION</h4>
+                
+             	<ul class="education left20">
+                
+                	<li>
+                        <div class="date"><span class="faIcon tiny dark calendar"></span><span class="highlightBg">Oct. 2012 to Jun. 2015</span></div>
+                        <div class="school"><strong>University of Essex - BSc Business Management</strong></div>
+                        <p>During my time at the university I studied various modules which were very in my career after, some of them are: applying E-commerce in Business, Digital and social media, Business ethics, Management innovation and new technology, and Leadership.</p>
+                        
+                    </li>
+                    
+                    <li>
+                        <div class="date"><span class="faIcon tiny dark calendar"></span><span class="highlightBg">Sep. 2008 to Jul. 2012</span></div>
+                        <div class="school"><strong>National College "Cantemir Voda" - Mathematics and IT</strong></div>
+                        <p>During my time here was when I first descovered programming and learned C++. I finished my studies here with a Baccalaureate score of 8.80/10
+                        </p>
+                        
+                    </li>
+                    
+                
+                    
+                </ul>
+                
+                
+                <h4 class="row"><span class="faIcon small dark heart"></span>INTERESTS</h4>
+                
+                
+                 <p>In my free time I enjoy supporting my <strong> favourite football team Real Madrid and learning new things</strong>. On my holidays <span class="highlightBg">I enjoy traveling the world and visiting new countries.</span> In the winter I enjoy going to the mountains doing <span class="highlightBg">snowbording </span> while enjoyng the white mountain landscape </p>
+
+
+
+             </div>
+             
+             <div class="clearfix"></div>
+             
+             
+             <!--interests icons-->
+             <div class="one"><h4><span class="faIcon small heart"></span>STUFF I LIKE TO DO</h4></div>
+                
+            <div class="onefifth row-thirty center">
+               <span class="faIcon bordered globe tooltip" data-tooltipText="Travelling" data-tooltipDirection="n"></span>
+            </div>
+            
+            <div class="onefifth row-thirty center">
+               <span class="faIcon bordered code tooltip" data-tooltipText="Programming" data-tooltipDirection="n"></span>
+            </div>
+            
+            <div class="onefifth row-thirty center">
+               <span class="faIcon bordered beer tooltip" data-tooltipText="Drinking beer" data-tooltipDirection="n"></span>
+            </div>
+            
+            <div class="onefifth row-thirty center">
+               <span class="faIcon bordered headphones tooltip" data-tooltipText="Listening to music" data-tooltipDirection="n"></span>
+            </div>
+            
+            <div class="onefifth row-thirty center">
+               <span class="faIcon bordered food tooltip" data-tooltipText="Eating pizza" data-tooltipDirection="n"></span>
+            </div>
+            <!--End interests icons-->
+             
+             
+            <div class="clearfix row-thirty"></div>
+            
+            
+             
+        
+        </div>
+        <!--
+        ///////////////
+        End Resume page
+        ///////////////
+        -->
+        
+        
+        
+        
+        <!--
+        ///////////////
+        Start Portfolio page
+        ///////////////
+        -->
+        <div class="container" id="portfolio">
+
+            <!-- Header -->
+            <header class="one row">
+               <h2><span class="faIcon portfolio"></span>PORTFOLIO</h2>
+            </header>
+            
+            
+            <!--Start portfolio-->
+            
+            <article class="portfolioSingle hidden">
+               <div class="twothird row scaleframe"></div>
+               <div class="onethird row"></div>
+               <nav class="onethird row"><span class="prev"></span><span class="next"></span><span class="link"></span><span class="close"></span></nav>
+
+            </article>
+            
+
+            <figure class="onefourth row" data-largeMedia="images/portfolio/large/1.jpg" data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus." data-url="http://themeforest.net/user/LGLab" data-target="_blank">
+               <img class="scaletofit" src="images/portfolio/1.jpg" alt="" />
+               <span class="hover"></span>
+</figure>
+            
+            <figure class="onefourth row" data-largeMedia="9g0TkS21qNw" data-mediaType="youtube" data-largeTitle="YOUTUBE VIDEO" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus." data-url="http://themeforest.net/user/LGLab" data-target="_blank">
+               <img class="scaletofit" src="images/portfolio/2.jpg" alt="" />
+               <span class="hover"></span>
+               
+</figure>
+            
+            <figure class="onefourth row" data-largeMedia="24302498" data-mediaType="vimeo" data-largeTitle="VIMEO VIDEO" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus." data-url="http://themeforest.net/user/LGLab" data-target="_blank">
+               <img class="scaletofit" src="images/portfolio/3.jpg" alt="" />
+               <span class="hover"></span>
+               
+</figure>
+            
+            <figure class="onefourth row" data-largeMedia="images/portfolio/large/2.jpg,images/portfolio/large/3.jpg,images/portfolio/large/4.jpg" data-mediaType="image" data-largeTitle="FLEX SLIDER" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus." data-url="http://themeforest.net/user/LGLab" data-target="_blank">
+               <img class="scaletofit" src="images/portfolio/4.jpg" alt="" />
+               <span class="hover"></span>
+               
+</figure>
+            
+            <figure class="onefourth row" data-largeMedia="images/portfolio/large/5.jpg" data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus." data-url="http://themeforest.net/user/LGLab" data-target="_blank">
+               <img class="scaletofit" src="images/portfolio/5.jpg" alt="" />
+               <span class="hover"></span>
+              
+</figure>
+            
+            <figure class="onefourth row" data-largeMedia="24302498" data-mediaType="vimeo" data-largeTitle="VIMEO VIDEO" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus." data-url="http://themeforest.net/user/LGLab" data-target="_blank">
+               <img class="scaletofit" src="images/portfolio/6.jpg" alt="" />
+               <span class="hover"></span>
+               
+</figure>
+            
+            <figure class="onefourth row" data-largeMedia="images/portfolio/large/1.jpg" data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus." data-url="http://themeforest.net/user/LGLab" data-target="_blank">
+               <img class="scaletofit" src="images/portfolio/7.jpg" alt="" />
+               <span class="hover"></span>
+              
+</figure>
+            
+            <figure class="onefourth row" data-largeMedia="9g0TkS21qNw" data-mediaType="youtube" data-largeTitle="YOUTUBE VIDEO" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus." data-url="http://themeforest.net/user/LGLab" data-target="_blank">
+               <img class="scaletofit" src="images/portfolio/8.jpg" alt="" />
+               <span class="hover"></span>
+              
+</figure>
+            
+            <figure class="onefourth row" data-largeMedia="24302498" data-mediaType="vimeo" data-largeTitle="VIMEO VIDEO" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus." data-url="http://themeforest.net/user/LGLab" data-target="_blank">
+               <img class="scaletofit" src="images/portfolio/9.jpg" alt="" />
+               <span class="hover"></span>
+              
+</figure>
+            
+            <figure class="onefourth row" data-largeMedia="images/portfolio/large/5.jpg,images/portfolio/large/3.jpg,images/portfolio/large/4.jpg" data-mediaType="image" data-largeTitle="FLEX SLIDER" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus." data-url="http://themeforest.net/user/LGLab" data-target="_blank">
+               <img class="scaletofit" src="images/portfolio/10.jpg" alt="" />
+               <span class="hover"></span>
+               
+</figure>
+            
+            <figure class="onefourth row" data-largeMedia="images/portfolio/large/5.jpg" data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus." data-url="http://themeforest.net/user/LGLab" data-target="_blank">
+               <img class="scaletofit" src="images/portfolio/11.jpg" alt="" />
+               <span class="hover"></span>
+               
+</figure>
+            
+            <figure class="onefourth row" data-largeMedia="24302498" data-mediaType="vimeo" data-largeTitle="VIMEO VIDEO" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus." data-url="http://themeforest.net/user/LGLab" data-target="_blank">
+               <img class="scaletofit" src="images/portfolio/12.jpg" alt="" />
+               <span class="hover"></span>
+               
+</figure>
+
+
+            <!--End portfolio-->
+            
+        
+         
+            
+            
+            <div class="clearfix row-sixty"></div>
+
+ 
+        
+        </div>
+        <!--
+        ///////////////
+        End Portfolio page
+        ///////////////
+        -->
+        
+        
+        
+        <!--
+        ///////////////
+        Start Contact page
+        ///////////////
+        -->
+        <div class="container" id="contact">
+
+            <!-- Header -->
+            <header class="one row">
+               <h2><span class="faIcon contact"></span>CONTACT</h2>
+            </header>
+            
+            
+                <div class="onethird row whiteBg pad20 boxsizing">
+                
+                    <h4 class="row">Bogdan Nica</h4>
+                	<ul class="education">
+                    
+                        <li>
+                            <div class="date"><span class="faIcon tiny dark envelope"></span><span class="highlightBg">Address</span></div>
+                            <p>London<br /> UK</p>
+                        </li>
+                        
+                        <li>
+                            <div class="date"><span class="faIcon tiny dark desktop"></span><span class="highlightBg">Website</span></div>
+                            <p><a class="link" href="http://nicabogdan.co.uk">http://nicabogdan.co.uk</a></p>
+                        </li>
+                        
+                        <li>
+                            <div class="date"><span class="faIcon tiny dark inbox"></span><span class="highlightBg">Email</span></div>
+                            <p><a class="link" href="mailto:nicabogdan93@gmail.com">nicabogdan93@gmail.com</a></p>
+                        </li>
+                        
+                        <li>
+                            <div class="date"><span class="faIcon tiny dark phone"></span><span class="highlightBg">Phone</span></div>
+                            <p>07532786916</p>
+                        </li>
+                        
+
+                        
+                    </ul>
+                    
+                </div>
+                 
+                 
+                 
+    
+                 
+                <!--Contact form-->
+                <article class="twothird row contactForm">
+    
+                 <div id="message"></div>
+      
+                  <form method="post" action="classes/contact.php" name="contactform" id="contactform">
+      
+                  <fieldset>
+                 
+                  <input name="name" type="text" id="name" size="30" value="Name*" />
+      
+    
+                  <input name="email" type="text" id="email" size="30" value="Email*" />
+    
+                  <textarea name="comments" cols="40" rows="3" id="comments">Message*</textarea>
+                  
+                  
+                  <input type="submit" class="submit button normal reverted" id="submit" value="SUBMIT" />
+                  
+                  <!--
+                  <p class="verifyText">Are you human?<span class="required">*</span></p>
+                  <label for="verify" accesskey="V" id="verifyImage"><img src="classes/image.php" alt="Image verification"/></label>
+                  <input name="verify" type="text" id="verify" size="6" value="" style="width: 50px;" /><br /><br />
+                  -->
+    
+                  </fieldset>
+      
+                  </form>
+    
+    
+                
+                    
+                </article>
+                <!--//Contact form-->
+            
+            
+            
+            <div class="clearfix row-fourty"></div>
+
+ 
+        
+        </div>
+        <!--
+        ///////////////
+        End Contact page
+        ///////////////
+        -->
+        
+        
+        
+
+    
+    
+    </section>
+
+         
+
+     <!--
+    ///////////////
+    End main content
+    ///////////////
+    -->
+    
+    
+
+    <!-- JS
+    ================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="js/jacked.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.min.js"></script>
+    <script type="text/javascript" src="js/raphael.js"></script>
+    <script type="text/javascript" src="js/jquery.inview.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.3.js"></script>
+    <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="js/tipsy/jquery.tipsy.js"></script>
+    <script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tweet.min.js"></script>
+    <script type="text/javascript" src="js/vitae.js"></script>
+
+    
+
+    
+	
 </body>
 </html>
