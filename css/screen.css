@@ -2132,7 +2132,9 @@ nav.main .famenu:hover{
  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#CC129078', endColorstr='#CC129078');
 }
 
-
+#contactf1 {
+    height: 450px;
+}
 
 
 
